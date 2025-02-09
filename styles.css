@@ -1,0 +1,66 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+
+div{
+	box-sizing: 10px; 
+	boder-box: 2px solid;
+}
+
+header {
+	background: white;
+	padding: 10px;
+}
+header h1 {
+	margin:0;
+}
+div.post {
+	background: white; 
+	margin-top: 10px;
+
+}
+div.post img {
+	width:100%;
+}
+div.post h2{
+	padding-top: 10px;
+	margin: 0;
+	padding-inline: 5px;
+}
+
+div.post p {
+	padding-top: 10px;
+	margin: 0;
+	padding-inline: 5px;
+	text-align: inherit;
+	padding-bottom: 5px;
+}
+
+div.post .post-header div:first-child {
+	display: inline-block;
+	width: 80%;
+}
+div.post .post-header div:last-child {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	color: grey;
+}
+
+div.container {
+		width: 600px;
+		margin:auto;
+}
+section {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+article {
+	flex: 1 200px;
+	padding: 10px;
+	padding-block-end: 40px;
+}
